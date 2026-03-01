@@ -10,7 +10,14 @@ python main.py --files economic1.csv economic2.csv --report gdp_avg
 достаточно создать новый класс, на основе BaseReport
 в него уже заложенны эти функции:
 -- scanning_data считывает один файл и передает все данные ввиде словоря
--- report_to_file может записать сформированный отчет в отдельный файл(этого функционала не было в задании, моя инициатива) 
+-- report_to_file может записать сформированный отчет в отдельный файл(этого функционала не было в задании, моя инициатива)(по умолчанию эта функция отключена) 
+
+пример запуска 
+<img width="1920" height="1080" alt="Снимок экрана 2026-03-01 в 19 20 26" src="https://github.com/user-attachments/assets/0e0a1bb8-d04c-49b1-8363-ed7e450e598d" />
 
 ниже пример запуска без параметра --report
 <img width="1920" height="1080" alt="Снимок экрана 2026-03-01 в 19 20 48" src="https://github.com/user-attachments/assets/5196bb7f-359b-4a7b-9083-1f6314816322" />
+
+пример формирования отчета если включить функцию report_to_file
+<img width="852" height="598" alt="Снимок экрана 2026-03-01 в 20 14 16" src="https://github.com/user-attachments/assets/d2e08942-9d07-493c-a27c-13c3ccef4f6a" />
+
